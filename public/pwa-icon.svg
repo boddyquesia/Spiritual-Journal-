@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#A67C52" rx="64" />
+  <path d="M128 128h256v256H128z" fill="#F5EDE3" />
+  <path d="M160 160h192v192H160z" fill="#A67C52" />
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="serif" font-size="200" fill="#F5EDE3">J</text>
+</svg>

@@ -1,11 +1,44 @@
-<div align="center">
+# Next.js Vercel Template
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Este es un proyecto base de Next.js optimizado para despliegue en Vercel.
 
-  <h1>Built with AI Studio</h2>
+## Características
+- Estructura de carpetas estándar (`pages`, `components`, `public`, `styles`).
+- Rutas dinámicas (`/posts/[id]`).
+- API Routes (`/api/hello`).
+- Optimización SEO básica.
+- Configuración lista para Vercel.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Comenzando
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+### 1. Instalación
+Instala las dependencias necesarias:
+```bash
+npm install
+```
 
-</div>
+### 2. Desarrollo
+Inicia el servidor de desarrollo:
+```bash
+npm run dev
+```
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
+
+### 3. Producción
+Para crear una versión de producción:
+```bash
+npm run build
+```
+Y para servirla:
+```bash
+npm run start
+```
+
+## Despliegue en Vercel
+
+La forma más fácil de desplegar este proyecto es usando la [Plataforma Vercel](https://vercel.com/new):
+
+1. Sube tu código a un repositorio de GitHub, GitLab o Bitbucket.
+2. Importa el repositorio en Vercel.
+3. Configura las variables de entorno si es necesario (basándote en `.env.example`).
+4. ¡Listo! Vercel detectará automáticamente que es un proyecto de Next.js y hará el deploy.

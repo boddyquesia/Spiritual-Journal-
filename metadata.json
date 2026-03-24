@@ -1,0 +1,5 @@
+{
+  "name": "My Spiritual Journal",
+  "description": "A modern web application featuring Firebase Authentication (email/password), Firestore database integration, and a protected dashboard with a clean, minimal UI.",
+  "requestFramePermissions": []
+}
